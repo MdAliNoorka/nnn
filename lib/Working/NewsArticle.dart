@@ -20,7 +20,7 @@ class NewsArticle{
      // printData();
   }
   bool isAnyNull() {
-    return (title == "null" || description == "null" || articleUrl == "null" || imgUrl == "null"  );
+    return (title == "null"  || articleUrl == "null" || imgUrl == "null"  );
   }
   printData(){
     print("title: $title\n description: $description \n articleUrl: $articleUrl \n imgUrl: $imgUrl");
